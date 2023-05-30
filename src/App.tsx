@@ -1,7 +1,9 @@
+import { AppRoutes } from "app/AppRoutes";
+
 import type { FC } from "react";
 
 const App: FC = () => {
-  return <div>Here we go</div>;
+  return <AppRoutes />;
 };
 
 export default App;
